@@ -1,0 +1,7 @@
+student={
+    "roll":292,
+    "name":"ccc"
+    }
+student["branch"]="MCA"
+student["cgpa"]=8.7
+print(student)
