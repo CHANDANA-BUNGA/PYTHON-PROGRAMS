@@ -1,0 +1,6 @@
+student={
+    "name":"rahul",
+    "cgpa":4.4,
+    }
+student["cgpa"]=9.9
+print(student)
