@@ -1,0 +1,6 @@
+number=[25,12,18,45,60]
+item=int(input("enter number: "))
+if item in number:
+    print("found")
+else:
+    print("not found")
