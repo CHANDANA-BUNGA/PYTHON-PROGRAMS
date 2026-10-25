@@ -1,0 +1,13 @@
+numbers=[25,12,40,18]
+print("original list")
+print(numbers)
+numbers.append(50)
+print(numbers)
+numbers.insert(2,100)
+print(numbers)
+numbers.remove(12)
+print(numbers)
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
