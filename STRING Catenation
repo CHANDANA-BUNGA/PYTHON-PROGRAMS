@@ -1,0 +1,4 @@
+first=input("enter 1st name: ")
+last=input("enter last name: ")
+fullname=first+" "+last
+print("full name:",fullname)
