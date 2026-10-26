@@ -1,0 +1,5 @@
+text=input("enter text: ")
+print("upper:",text.upper())
+print("lower:",text.lower())
+print("tittle:",text.title())
+print("length:",len(text))
