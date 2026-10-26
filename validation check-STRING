@@ -1,0 +1,8 @@
+roll_no="mac10"
+print(roll_no.isalnum())
+print(roll_no.isdigit())
+text=input("enter age: ")
+if text.isdigit():
+    age=int(text)
+else:
+    print("digits only",please)
