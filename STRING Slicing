@@ -1,0 +1,4 @@
+text=input("enter string: ")
+print("1st 5 characters:",text[:5])
+print("last 5 characters:",text[-5:])
+print("revrese:",text[::-1])
