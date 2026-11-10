@@ -1,0 +1,7 @@
+import re
+rollno=input("enter roll no:")
+x=re.match(r"26[B,M]11[B,M]c\d{3}",rollno)
+if(rollno):
+    print("valid num")
+else:
+    print("invalid num")
