@@ -1,0 +1,7 @@
+import re
+phno=input("enter mobile no.: ")
+X=re.fullmatch(r"\d{10}",phno)
+if(X):
+    print("valid")
+else:
+    print("invalid")
