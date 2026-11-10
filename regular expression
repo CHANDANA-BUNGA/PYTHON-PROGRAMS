@@ -1,0 +1,4 @@
+import re
+text="order #4521 shipped.order #78 pending,order #903 done"
+orders=re.findall(r"order #\d+",text)
+print(orders)
