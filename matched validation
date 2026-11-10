@@ -1,0 +1,7 @@
+import re
+X=input("enter any string")
+Y=input("enter any string 2")
+if(re.match(X,Y)):
+    print("matched")
+else:
+    print("not matched")
