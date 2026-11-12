@@ -1,0 +1,7 @@
+import re
+aadhar=input("enter your aadhar number: ")
+if re.fullmatch(r"\d{12}",aadhar):
+    print("valid aadhar number")
+else:
+    print("invalid aadhar number")
+
