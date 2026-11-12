@@ -1,0 +1,8 @@
+import re
+ip_pattern=re.compile(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")
+log_lines=["request fron 1921.168.1.10","blocked 1004.0.0.5","ok 172.16.0.1. "]
+for line in log_lines:
+    match=ip_pattern.search(line)
+    if match:
+        print(match.group())
+
