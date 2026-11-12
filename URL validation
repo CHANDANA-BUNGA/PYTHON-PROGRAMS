@@ -1,0 +1,8 @@
+import re
+url=input("enter your url:")
+pattern=r"http//WWW.\[A-Za-z0-9.#@$]+/\.[A-Za-z]{2,}"
+if re.fullmatch(pattern,url):
+    print("valid url")
+else:
+    print("invalid url")
+
